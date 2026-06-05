@@ -8,6 +8,11 @@ namespace Soenneker.Loops.OpenApi.Suite.Registrars;
 /// </summary>
 public static class LoopsOpenApiSuiteRegistrar
 {
+    /// <summary>
+    /// Adds loops open api suite as singleton.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddLoopsOpenApiSuiteAsSingleton(this IServiceCollection services)
     {
         services.AddLoopsContactsUtilAsSingleton();
@@ -15,6 +20,11 @@ public static class LoopsOpenApiSuiteRegistrar
         return services;
     }
 
+    /// <summary>
+    /// Adds loops open api suite as scoped.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddLoopsOpenApiSuiteAsScoped(this IServiceCollection services)
     {
         services.AddLoopsContactsUtilAsScoped();
