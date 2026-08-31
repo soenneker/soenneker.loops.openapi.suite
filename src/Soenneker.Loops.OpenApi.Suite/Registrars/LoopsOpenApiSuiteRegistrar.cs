@@ -4,7 +4,7 @@ using Soenneker.Loops.Contacts.Registrars;
 namespace Soenneker.Loops.OpenApi.Suite.Registrars;
 
 /// <summary>
-/// A comprehensive suite of utility libraries for Loop.so's OpenApi operations
+/// Registers the Loops contact operation package through a single suite entry point.
 /// </summary>
 public static class LoopsOpenApiSuiteRegistrar
 {
