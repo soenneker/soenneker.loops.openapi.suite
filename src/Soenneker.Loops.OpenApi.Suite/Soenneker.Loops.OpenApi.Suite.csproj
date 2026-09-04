@@ -44,6 +44,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Loops.Contacts" Version="4.0.291" />
+        <PackageReference Include="Soenneker.Loops.Contacts" Version="4.0.292" />
     </ItemGroup>
 </Project>
